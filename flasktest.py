@@ -72,6 +72,7 @@ def post_update(id):
         return render_template("post_update.html", article=article)
 
 
+#asddd
 @app.route('/create-article', methods=['POST', 'GET'])
 def create_article():
     if request.method == "POST":
