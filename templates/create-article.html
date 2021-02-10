@@ -7,9 +7,9 @@
 <div class="container">
     <h1>Добавление статьи</h1>
     <form action="/create-article" method="post">
-        <input type="text" name='title' id='title' placeholder="Введите название" class="form-control"><br>
-        <textarea name="intro" id="intro" class="form-control" placeholder="Введите анонс" cols="30" rows="10"></textarea><br>
-        <textarea name="text" id="text" class="form-control" placeholder="Введите основной текст" cols="30" rows="10"></textarea><br>
+        <input required type="text" name='title' id='title' placeholder="Введите название" class="form-control"><br>
+        <textarea required name="intro" id="intro" class="form-control" placeholder="Введите анонс" cols="30" rows="10"></textarea><br>
+        <textarea required name="text" id="text" class="form-control" placeholder="Введите основной текст" cols="30" rows="10"></textarea><br>
         <input type="submit" class="btn btn-success" value="Отправить">
     </form>
 </div>
